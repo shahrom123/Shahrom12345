@@ -3,3 +3,146 @@
     margin: 0;
     padding: 0;
 }
+.shahrom-container{
+    background-color: #252525;
+    height: 200vh;
+}
+.shahrom-navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+
+}
+.shahrom-navbar h1{
+   color: #FFFFFF;
+   margin-top: 50px;
+   font-size: 50px;
+
+}
+.shahrom-center{
+    width: 90%;
+    margin: auto;
+}
+.shahrom-home ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+
+    
+  
+}
+.shah-home{
+     color: #118DA8 !important;
+     font-weight: 400;
+     font-size: 15px;
+     letter-spacing: 2px;
+}
+.shahrom-home ul li{
+    list-style: none;
+  
+}
+.shahrom-home ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border-left: 3px solid #4D4D4D;
+    border-right: 3px solid #4D4D4D;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    border-radius: 10px;
+}
+.shahrom-home ul li a:hover{
+  background-color:orange;
+   border-radius: 10px; 
+}
+/* shahrom-left-right */
+
+.shahrom-left-right{
+    display: flex;
+    color: #FFFFFF;
+}
+.shahrom-left{
+    width: 50%;
+}
+.shahrom-left img{
+    width: 100%;
+}
+.shsh-icons p{
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+   
+    
+}
+.shsh-icons img{
+    margin-right: 20px;
+    
+}
+.shahrom-right h1{
+    font-size: 100px;
+    margin-bottom: 100px;
+
+}
+.shahrom-right{
+    width: 50%;
+    margin-left: 50px;
+
+}
+.shahrom-navbar{
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1;
+}
+.shahrom-left-right{
+    padding-top: 200px;
+}
+/* shahrom-end */
+
+.shahrom-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    color: #FFFFFF;
+}
+.shahrom-h1{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.shahrom-p p{
+    border: 1px solid #4D4D4D;
+    padding: 15px 25px;
+    font-weight: 400;
+    background: #118DA8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.shahrom-p p:hover{
+    background-color: #4D4D4D;
+}
+
+.shah-img1{
+    position: absolute;
+    top: 185px;
+    left: 100px;
+
+}
+.shah-img2{
+    position: absolute;
+    top: 185px;
+    left: 50px;
+
+}
+.shah-img3{
+    position: absolute;
+    top: 225px;
+    left: 50px;
+
+}
