@@ -1,7 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+
+
+.md-main{
+    width: 100%;
+    background-color:  #5a5555;
+
+}
+.md-center{
+    width: 90%;
+    margin: auto;
+
+}
+.md-jucob{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ican{
+    margin-top: 20px;
+    color: white;
+    width: 32%;
+    height: 221px;
+    border-radius: 32px;
+    background-color:  #000000;
+}
+.ican img{
+    margin-top: 54px;
+
+
+}
+.ican img:nth-child(1){
+   margin-left: 30px;
+}
+.ican h3{
+    width: 190px;
+    height: 40px;
+    margin: 25px 30px;
+
+}
+.ican h5{
+    color: white;
+    margin-left: 30px;
+    opacity: 0.7;
+}
+.every{
+    display: flex;
+    justify-content: space-between;
+}
+.md-footer{
+    color: white;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.home ul li{
+    margin: 10px 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.style ul li{
+   
+    margin: 10px 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.home ul li a{
+    padding: 5px 5px;
+    margin: 30px 0px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.style ul li a{
+    padding: 5px 5px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.style ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.home ul li a:hover{
+    
+    background-color: black;
+    color: white;
+}
+.cast h1{
+    margin-bottom: 30px;
+}
+.cast a img{
+    padding: 5px 5px;
+    margin: 0px 5px;
+}
+.cast a img:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+.icons img{
+    margin: 0px 10px;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+.icons img:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 .ymconteiner{
     width: 100%;
@@ -124,142 +235,138 @@ letter-spacing: 0.8px;
     justify-content:space-between;
     align-items: center;
     margin-bottom: 100px;
-
-
 }
-.shahrom-navbar h1{
-   color: #FFFFFF;
-   margin-top: 50px;
-   font-size: 50px;
 
-}
-.shahrom-center{
-    width: 90%;
-    margin: auto;
-}
-.shahrom-home ul{
+.XM-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 50px;
-
-    
-  
+    background-color: #191919;
 }
-.shah-home{
-     color: #118DA8 !important;
-     font-weight: 400;
-     font-size: 15px;
-     letter-spacing: 2px;
-}
-.shahrom-home ul li{
-    list-style: none;
-  
-}
-.shahrom-home ul li a{
-    text-decoration: none;
-    color: #FFFFFF;
-    border-left: 3px solid #4D4D4D;
-    border-right: 3px solid #4D4D4D;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 27px;
-    border-radius: 10px;
-}
-.shahrom-home ul li a:hover{
-  background-color:orange;
-   border-radius: 10px; 
-}
-/* shahrom-left-right */
-
-.shahrom-left-right{
-    display: flex;
-    color: #FFFFFF;
-}
-.shahrom-left{
-    width: 50%;
-}
-.shahrom-left img{
-    width: 100%;
-}
-.shsh-icons p{
-    margin-bottom: 30px;
-    font-size: 30px;
-    letter-spacing: 3px;
-   
-    
-}
-.shsh-icons img{
-    margin-right: 20px;
-    
-}
-.shahrom-right h1{
-    font-size: 100px;
-    margin-bottom: 100px;
-
-}
-.shahrom-right{
-    width: 50%;
-    margin-left: 50px;
-
-}
-.shahrom-navbar{
-    position: fixed;
-    top: 0;
+.XM-container .XM-center{
     width: 90%;
-    z-index: 1;
-}
-.shahrom-left-right{
-    padding-top: 200px;
-}
-/* shahrom-end */
+    position: relative;
 
-.shahrom-end{
+}
+.XM-container .XM-center .XM-top{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 30px 0px;
-    color: #FFFFFF;
+    margin-bottom: 200px;
 }
-.shahrom-h1{
-    font-size: 30px;
-    letter-spacing: 10px;
+.XM-container .XM-center .XM-top .XM-right img{
+    width: 650px;
+    width: 100%;
+    height: 743px;
+
 }
-.shahrom-p p{
-    border: 1px solid #4D4D4D;
-    padding: 15px 25px;
+.XM-container .XM-center .XM-top .XM-right {
+    width: 45%;
+
+}
+.XM-container .XM-center .XM-top .XM-left{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+}
+.XM-container .XM-center .XM-top .XM-left h1{
     font-weight: 400;
-    background: #118DA8;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+    color: white;
+}
+.XM-container .XM-center .XM-top .XM-left p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.XM-container .XM-center  .XM-top .XM-left h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+    margin-top: 20px;
+}
+.XM-container .XM-center .XM-top .XM-left .XM-circle{
+    width: 112px ;
+    height: 112px;
+}
+.XM-container .XM-center .XM-top .XM-left .XM-arrow{
+    width: 75px ;
+    height: 57px;
+    position: absolute;
+    top: 190px;
+    right: 1242px;
+}
+.XM-container .XM-center .XM-down {
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+.XM-container .XM-center .XM-down .XM-sub {
+    width: 90%;
+    display: flex;
+    margin-bottom: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+.XM-container .XM-center .XM-down .XM-chap p {
+    font-weight: 400;
+font-size: 18px;
+color: #118DA8;
+}
+.XM-container .XM-center .XM-down .XM-chap  {
+    width: 35%;
+}
+.XM-container .XM-center .XM-down .XM-rost  {
+    width: 45%;
+    margin-top: 30px;
+}
+.XM-container .XM-center .XM-down .XM-chap h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+.XM-container .XM-center .XM-down .XM-rost input {
+    width: 522px;
+    padding-left: 19px;
+    margin-top: 20px;
+    background: #191919;
+    border: 1px solid #191919;
     border-radius: 6px;
-    cursor: pointer;
+    height: 82px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
 }
-.shahrom-p p:hover{
-    background-color: #4D4D4D;
+.XM-container .XM-center .XM-down .XM-rost button {
+    padding: 10px 15px 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #118DA8;
+    border-radius: 6px;
+    margin-top: 20px;
+   
+}
+.XM-container .XM-center .XM-down .XM-rost button:hover {
+   cursor: pointer;
+   transition: all 1s ease;
+   border-radius: 50px;
+   color: #118DA8;
+   background-color: rgb(80, 75, 68);
 }
 
-.shah-img1{
+.XM-container .XM-center .XM-down .XM-sub img {
     position: absolute;
-    top: 185px;
-    left: 100px;
-
-}
-.shah-img2{
-    position: absolute;
-    top: 185px;
-    left: 50px;
-
-}
-.shah-img3{
-    position: absolute;
-    top: 225px;
-    left: 50px;
-
-}
-.shsh-icons img:hover{
-   background-color: #118DA8;
-    cursor: pointer;
-    border-radius: 20px;
-}
+    width: 147px;
+    height: 91px;
+    top: 307px;
+    right: 1220px;
+} */
