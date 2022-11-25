@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .md-main{
     width: 100%;
     background-color:  #5a5555;
@@ -115,3 +116,265 @@
     color: white;
     cursor: pointer;
 }
+=======
+
+.ymconteiner{
+    width: 100%;
+    background: #252525;
+    
+}
+.ymcentr{
+    width: 90%;
+    margin: auto;
+}
+.ymtwotext{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+align-items: center;
+margin: auto;
+}
+.ymflex{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.ymflex h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;  
+}
+.View {
+    background: #118DA8;
+    border: #118DA8 ;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    margin-top: 20px;
+    transition: all 0.7s ease;
+    }
+    .View:hover{
+        background-color: #252525;
+        padding: 15px 15px;
+        color: aqua;
+    }
+    
+    .firstpart{
+        width: 100%;
+        background-color: black;
+     
+      display: flex;
+      margin: auto;
+    border-radius: 25px;
+    text-align: center;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      margin-top: 100px;
+
+    }
+  
+    
+.Vieww {
+  background: #118DA8;
+  border: #118DA8 ;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 20px 42px;
+  margin-top: 20px;
+  transition: all 0.7s ease;
+  text-align: start;
+ }
+ .Vieww:hover{
+     background-color: #252525;
+     padding: 15px 15px;
+     color: aqua;
+ }
+ .ymleft{
+     width: 40%;
+ }
+ .ymright{
+        width: 50%;
+        text-align: start;
+
+}
+.Gear{
+    margin-bottom: 40px;
+    width: 8%;
+    background: #191919;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.ymright h1{
+    margin-bottom: 40px;
+
+margin-bottom: 40PX;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 70px;
+text-align: start;
+letter-spacing: 2.56px;
+}
+.hardware {
+    margin-bottom: 40px;
+letter-spacing: 0.8px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.Episode{
+    margin-bottom: 40px;
+
+    color: #118DA8;
+
+.shahrom-container{
+    background-color: #252525;
+    height: 200vh;
+}
+.shahrom-navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+.XM-container{
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+}
+.XM-container .XM-center{
+    width: 90%;
+    position: relative;
+
+}
+.XM-container .XM-center .XM-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.XM-container .XM-center .XM-top .XM-right img{
+    width: 650px;
+    width: 100%;
+    height: 743px;
+
+}
+.XM-container .XM-center .XM-top .XM-right {
+    width: 45%;
+
+}
+.XM-container .XM-center .XM-top .XM-left{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+}
+.XM-container .XM-center .XM-top .XM-left h1{
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+    color: white;
+}
+.XM-container .XM-center .XM-top .XM-left p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.XM-container .XM-center  .XM-top .XM-left h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+    margin-top: 20px;
+}
+.XM-container .XM-center .XM-top .XM-left .XM-circle{
+    width: 112px ;
+    height: 112px;
+}
+.XM-container .XM-center .XM-top .XM-left .XM-arrow{
+    width: 75px ;
+    height: 57px;
+    position: absolute;
+    top: 190px;
+    right: 1242px;
+}
+.XM-container .XM-center .XM-down {
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+.XM-container .XM-center .XM-down .XM-sub {
+    width: 90%;
+    display: flex;
+    margin-bottom: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+.XM-container .XM-center .XM-down .XM-chap p {
+    font-weight: 400;
+font-size: 18px;
+color: #118DA8;
+}
+.XM-container .XM-center .XM-down .XM-chap  {
+    width: 35%;
+}
+.XM-container .XM-center .XM-down .XM-rost  {
+    width: 45%;
+    margin-top: 30px;
+}
+.XM-container .XM-center .XM-down .XM-chap h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+.XM-container .XM-center .XM-down .XM-rost input {
+    width: 522px;
+    padding-left: 19px;
+    margin-top: 20px;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    height: 82px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+}
+.XM-container .XM-center .XM-down .XM-rost button {
+    padding: 10px 15px 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #118DA8;
+    border-radius: 6px;
+    margin-top: 20px;
+   
+}
+.XM-container .XM-center .XM-down .XM-rost button:hover {
+   cursor: pointer;
+   transition: all 1s ease;
+   border-radius: 50px;
+   color: #118DA8;
+   background-color: rgb(80, 75, 68);
+}
+
+.XM-container .XM-center .XM-down .XM-sub img {
+    position: absolute;
+    width: 147px;
+    height: 91px;
+    top: 307px;
+    right: 1220px;
+}
+
