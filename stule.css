@@ -3,6 +3,118 @@
     margin: 0;
     padding: 0;
 }
+.ymconteiner{
+    width: 100%;
+    background: #252525;
+    
+}
+.ymcentr{
+    width: 90%;
+    margin: auto;
+}
+.ymtwotext{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+align-items: center;
+margin: auto;
+}
+.ymflex{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.ymflex h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;  
+}
+.View {
+    background: #118DA8;
+    border: #118DA8 ;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    margin-top: 20px;
+    transition: all 0.7s ease;
+    }
+    .View:hover{
+        background-color: #252525;
+        padding: 15px 15px;
+        color: aqua;
+    }
+    
+    .firstpart{
+        width: 100%;
+        background-color: black;
+     
+      display: flex;
+      margin: auto;
+    border-radius: 25px;
+    text-align: center;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      margin-top: 100px;
+
+    }
+  
+    
+.Vieww {
+  background: #118DA8;
+  border: #118DA8 ;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 20px 42px;
+  margin-top: 20px;
+  transition: all 0.7s ease;
+  text-align: start;
+ }
+ .Vieww:hover{
+     background-color: #252525;
+     padding: 15px 15px;
+     color: aqua;
+ }
+ .ymleft{
+     width: 40%;
+ }
+ .ymright{
+        width: 50%;
+        text-align: start;
+
+}
+.Gear{
+    margin-bottom: 40px;
+    width: 8%;
+    background: #191919;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.ymright h1{
+    margin-bottom: 40px;
+
+margin-bottom: 40PX;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 70px;
+text-align: start;
+letter-spacing: 2.56px;
+}
+.hardware {
+    margin-bottom: 40px;
+letter-spacing: 0.8px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.Episode{
+    margin-bottom: 40px;
+
+    color: #118DA8;
+
 .shahrom-container{
     background-color: #252525;
     height: 200vh;
