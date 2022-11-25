@@ -258,3 +258,8 @@ letter-spacing: 0.8px;
     left: 50px;
 
 }
+.shsh-icons img:hover{
+   background-color: #118DA8;
+    cursor: pointer;
+    border-radius: 20px;
+}
