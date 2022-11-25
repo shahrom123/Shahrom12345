@@ -163,15 +163,14 @@ margin: auto;
      
       display: flex;
       margin: auto;
-    border-radius: 25px;
-    text-align: center;
+      border-radius: 25px;
+      text-align: center;
       padding-top: 30px;
       padding-bottom: 20px;
       margin-top: 100px;
 
     }
   
-    
 .Vieww {
   background: #118DA8;
   border: #118DA8 ;
@@ -225,7 +224,7 @@ letter-spacing: 0.8px;
     margin-bottom: 40px;
 
     color: #118DA8;
-}
+/* } */
 .shahrom-container{
     background-color: #252525;
     height: 200vh;
@@ -236,7 +235,7 @@ letter-spacing: 0.8px;
     align-items: center;
     margin-bottom: 100px;
 }
-
+/*  
 .XM-container{
     display: flex;
     justify-content: center;
