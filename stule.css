@@ -1,10 +1,118 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #252525;
+}
+.shahrom-container{
+    background-color: #252525;
+}
+.shahrom-center{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.shahrom-home ul{
+    display: flex;
+    gap: 50px;
+
+}
+.shahrom-home ul li{
+   list-style: none;
+
+}
+.sh{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
 
 
+}
+.sh img:hover{
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.shahrom-home ul li a{
+   text-decoration:  none;
+   color: white;
+   font-size: 20px;
+
+}
+.shahrom-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.shah-home{
+    color: rgb(7, 104, 113)!important; 
+}
+.shahrom-home ul li a{
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid #4D4D4D;
+    border-right: 1px solid #4D4D4D;
+   padding: 20px 31px;
+   font-weight: 400;
+   font-size: 15px;
+   letter-spacing: 2px;
+   border-radius: 10px;
+
+}
+.shahrom-home ul li a:hover{
+    background-color:#4D4D4D;
+    color: aliceblue;
+}
+.shahrom-home ul li{
+    margin-top: 50px;
+}
+
+.shahrom-navbar h1{
+    margin-top: 50px;
+    font-size: 50px
+}
+.shahrom-left-right{
+    display: flex;
+    margin-top: 100px;
+}
+
+.shahrom-right h1{
+    font-size: 100px;
+    
+}
+.shah-img1{
+    position: absolute;
+    left: 55px;
+    top: 185px;
+
+}
+.shah-img2{
+    position: absolute;
+    left: 100px;
+    top: 185px;
+}
+.shah-img3{
+    position: absolute;
+    left: 50px;
+    top: 225px;
+}
+
+.shahrom-right{
+    margin-left: 50px;
+
+}
+.shsh-icons p{
+    margin:  20px 0px;
+    font-size: 40px;
+}
 .md-main{
     width: 100%;
     background-color:  #5a5555;
@@ -224,7 +332,7 @@ letter-spacing: 0.8px;
     margin-bottom: 40px;
 
     color: #118DA8;
-/* } */
+}
 .shahrom-container{
     background-color: #252525;
     height: 200vh;
@@ -235,7 +343,7 @@ letter-spacing: 0.8px;
     align-items: center;
     margin-bottom: 100px;
 }
-/*  
+
 .XM-container{
     display: flex;
     justify-content: center;
@@ -265,7 +373,7 @@ letter-spacing: 0.8px;
     display: flex;
     width: 45%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 }
 .XM-container .XM-center .XM-top .XM-left h1{
     font-weight: 400;
@@ -291,20 +399,21 @@ letter-spacing: 0.8px;
     height: 112px;
 }
 .XM-container .XM-center .XM-top .XM-left .XM-arrow{
-    width: 75px ;
+    width: 78px ;
     height: 57px;
     position: absolute;
     top: 190px;
-    right: 1242px;
+    right: 1270px;
 }
 .XM-container .XM-center .XM-down {
     background-color: black;
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     border-radius: 32px;
     margin-bottom: 60px;
+  
 }
 .XM-container .XM-center .XM-down .XM-sub {
     width: 90%;
@@ -315,13 +424,13 @@ letter-spacing: 0.8px;
 }
 .XM-container .XM-center .XM-down .XM-chap p {
     font-weight: 400;
-font-size: 18px;
-color: #118DA8;
+    font-size: 18px;
+    color: #118DA8;
 }
 .XM-container .XM-center .XM-down .XM-chap  {
     width: 35%;
 }
-.XM-container .XM-center .XM-down .XM-rost  {
+.XM-container .XM-center .XM-down .XM-rost{
     width: 45%;
     margin-top: 30px;
 }
@@ -333,7 +442,8 @@ color: #118DA8;
     letter-spacing: 2.88px;
 }
 .XM-container .XM-center .XM-down .XM-rost input {
-    width: 522px;
+    width: 500px;
+    margin-right: 500px;
     padding-left: 19px;
     margin-top: 20px;
     background: #191919;
@@ -366,6 +476,6 @@ color: #118DA8;
     position: absolute;
     width: 147px;
     height: 91px;
-    top: 307px;
-    right: 1220px;
-} */
+    top: 340px;
+    right: 1260px;
+} 
